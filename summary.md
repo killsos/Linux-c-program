@@ -40,3 +40,12 @@ gcc 程序名 -o 可执行程序名
 ```
 
 1. goto
+
+2. if (condition) else
+
+```c
+if (condition)
+  printf();
+else
+  printf();
+```
