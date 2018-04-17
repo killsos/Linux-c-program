@@ -4,8 +4,7 @@
 
     次版本号 偶数是稳定版  
 
-    次版本号 奇数是非稳定版  
-
+    次版本号 奇数是非稳定版
 
 2. Linux与Unix关系
 
@@ -38,9 +37,9 @@ gcc 程序名 -o 可执行程序名
 
 ```
 
-1. goto
+#### 1. goto
 
-2. if (condition) else
+#### 2. if (condition) else
 
 ```c
 if (condition) {
@@ -54,5 +53,5 @@ if (condition) {
 
 ```
 
-3. 短路计算
+#### 3. 短路计算
 
