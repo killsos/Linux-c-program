@@ -44,8 +44,13 @@ gcc 程序名 -o 可执行程序名
 2. if (condition) else
 
 ```c
-if (condition)
+if (condition) {
+
   printf();
-else
+
+} else {
+
   printf();
+}
+
 ```
