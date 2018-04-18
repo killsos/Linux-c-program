@@ -77,3 +77,28 @@ do {
   
 } while()
 ```
+
+#### 6. for
+
+```c
+for() {
+  
+}
+```
+
+#### 7. switch
+
+```c
+switch(score) {
+  case target : 
+    break;
+  
+  default:
+
+}
+```
+
+在时间方面 switch语句的执行速度比ifelse语句要快 但是在程序执行所占用的空间方面 switch语句需要维护一张调资表  
+
+#### 8. 优化控制结构
+
