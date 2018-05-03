@@ -20,9 +20,9 @@ struct node {
 int insert (int val) {
   Node p, q;
   p = head;
-  if (p !== NULL)
+  if (p != NULL)
   {
-    while (p->next !== NULL)
+    while (p->next != NULL)
     {
       p = p->next;
     }
@@ -52,7 +52,7 @@ void print()
 {
   Node p = head;
 
-  while (p != NUll)
+  while (p != NULL)
   {
     printf("%d \n ", p->val);
     p = p->next;
@@ -62,7 +62,7 @@ void print()
 void destory() 
 {
   Node p = head;
-  while (p !== NULL)
+  while (p != NULL)
   {
     Node q;
     q = p;
@@ -71,4 +71,10 @@ void destory()
   }
 
   head = NULL;
+}
+
+int main()
+{
+  printf("%d \n", 123);
+  return 1;
 }
